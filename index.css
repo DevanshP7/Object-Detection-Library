@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Neonderthaw&family=Rubik+Moonrocks&family=Tangerine&display=swap');
+
+body{
+
+    background-image: radial-gradient(lightblue, white);
+
+}
+
+#header{
+
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 80px;
+    color: crimson;
+    margin-bottom: 100px;
+
+}
+
+button{
+
+    margin: 20px !important;
+    color: aliceblue !important;
+    border-radius: 30px;
+    font-size: 50px !important;
+    font-family: 'Tangerine', cursive !important;
+    transition: transform 1s, background-color 1s, color 1s;
+    width: 50%;
+    border: none;
+
+}
+
+button:hover{
+
+    transform: scale(1.5);
+    background-color:aliceblue !important;
+    color: blue !important;
+
+}
+
+#anchor_1{background-color: blue;}
+#anchor_2{background-color: red;}
+#anchor_3{background-color: green;}
+#anchor_4{background-color: rgb(255, 106, 0);}
+#anchor_5{background-color: rgb(119, 0, 255);}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Neonderthaw&family=Rubik+Moonrocks&family=Tangerine&display=swap');
+
+body{
+
+    background-image: radial-gradient(rgb(161, 186, 255), rgb(255, 206, 214));
+}
+
+
+#header{
+
+    font-family: 'Neonderthaw', cursive;
+    font-size: 80px;
+    color: crimson;
+
+}
+
+#image_choosed{
+
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 60px;
+    color:blue;
+    letter-spacing: 1px;
+
+}
+
+#number_of_objects_detected{
+
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    margin-top: 540px;
+    color: rgb(246, 255, 0);
+
+}
+
+#detected_object{
+
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+    margin: 40px;
+
+}
+
+canvas{
+
+    background-color: aliceblue;
+    border-radius: 40px;
+
+}
+
+#back_button{
+
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 20px;
+    transition: transform 1s, color 1s, background-color 1s;
+    font-size: 40px;
+    font-family: cursive;
+    border: none;
+    margin: 20px;
+    float: right
+
+}
+
+#back_button:hover{
+
+    transform: scale(1.5);
+    color: rgb(255, 0, 0);
+    background-color: aliceblue;
+
+}
